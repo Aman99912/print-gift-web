@@ -1,0 +1,53 @@
+.product{
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px ;
+    width: 30%;
+    height: auto;
+    display: inline;
+    box-shadow: 5px 2px 3px 5px rgb(107, 88, 88);
+}
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-img {
+    height: auto;
+    width: 93%;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.price{
+    display: inline;
+    color: green;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 90%;
+    margin-left: 15px;
+
+}
+.offer{
+    display: inline;
+    text-decoration: line-through;
+    color: red;
+    font-size: 90%;
+}
+.offer-cut{
+    display: inline;
+    text-decoration: none;
+    size: 10px;
+    color: red;
+    margin-bottom: 5px;
+    font-size: 90%;
+}
+.ttl{
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 90%;
+}
+.product:hover{
+  
+    box-shadow: 5px 2px 3px 5px rgb(240, 142, 142);
+}
